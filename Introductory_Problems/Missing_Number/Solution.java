@@ -46,8 +46,11 @@ public class Solution {
 
     public static void main(String[] args) {
         FastReader fr = new FastReader();
-        
-        // TODO: Implement solution for Missing Number
-        
+        int n = fr.nextInt();
+        long sum = 0;
+        for (int i = 0; i < n - 1; i++) {
+            sum += fr.nextInt();
+        }
+        System.out.println((long)((long) n * (long) (n + 1) / 2 - sum));
     }
 }

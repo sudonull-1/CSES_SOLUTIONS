@@ -46,8 +46,15 @@ public class Solution {
 
     public static void main(String[] args) {
         FastReader fr = new FastReader();
-        
-        // TODO: Implement solution for Weird Algorithm
-        
+        long n = fr.nextLong();
+        while (n != 1) {
+            System.out.print(n + " ");
+            if (n % 2 == 0) {
+                n /= 2;
+            } else {
+                n = 3 * n + 1;
+            }
+        }
+        System.out.println(n);
     }
 }

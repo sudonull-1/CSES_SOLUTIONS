@@ -119,7 +119,3 @@ int c = fr.nextInt();
 - Problems are organized exactly as they appear on the CSES website
 - You can add additional files (input.txt, output.txt, etc.) to each problem folder as needed
 - All templates include necessary imports: `java.io.*` and `java.util.*`
-
-## 🛠 Generated with
-
-This structure was automatically generated using a Python web scraper that parses the CSES problem list and creates the corresponding folder structure with optimized Java templates. 
